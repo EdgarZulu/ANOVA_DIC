@@ -1,3 +1,6 @@
-x=6
-y=8
-z=x-y
+data(iris)
+dados=iris
+attach(dados)
+str(dados)
+
+plot(dados[,2])
